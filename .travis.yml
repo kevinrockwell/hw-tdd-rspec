@@ -12,7 +12,7 @@ before_install:
   - chmod +x $CCTR
   - $CCTR before-build
   - gem install bundler:1.15.3
-  - bundle _1.15.3 install
+  - bundle _1.15.3_ install
 script:
   - bundle exec rake db:setup
   - bundle exec rake rspec
